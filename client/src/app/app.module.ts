@@ -46,7 +46,7 @@ import { AuthInterceptor } from './shared/interceptors/auth.interceptor';
     BrowserAnimationsModule,
     HttpClientModule,
     LayoutModule,
-    RouterModule.forRoot(APP_ROUTING),
+    RouterModule.forRoot(APP_ROUTING, { relativeLinkResolution: 'legacy' }),
     ReactiveFormsModule
   ],
   providers: [
