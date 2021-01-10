@@ -13,17 +13,21 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../public')));
 
-mongoose.connect('mongodb://angulardyma:123@ds119018.mlab.com:19018/mean-stack', {
+mongoose.connect(
+  'mongodb+srv://angulardyma:123123123@cluster0-urpjt.gcp.mongodb.net/angulardyma?retryWrites=true&w=majority',
+  {
     keepAlive: true,
     useNewUrlParser: true,
-    useUnifiedTopology: true
-  }, (error) => {
+    useUnifiedTopology: true,
+  },
+  (error) => {
     if (error) {
       console.log(error);
     } else {
       console.log('Connexion opened to mongodb!');
     }
-});
+  }
+);
 
 app.use(index);
 
