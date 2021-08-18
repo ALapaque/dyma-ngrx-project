@@ -9,8 +9,8 @@
         <mat-form-field>
           <input formControlName="password" matInput type="password" placeholder="mot de passe" />
         </mat-form-field>
-        <div style="color:red;" *ngIf="error">{{ error }}</div>
-        <button color="primary" (click)="submit()" mat-raised-button >Connexion</button>
+        <div style="color:red;" *ngIf="error$ | async as error">{{ error }}</div>
+        <button color="primary" (click)="submit()" mat-raised-button>Connexion</button>
       </form>
     </mat-card-content>
   </mat-card>

@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
 // routing
 import { APP_ROUTING } from './app.routing';
 import { CoreModule } from './shared/modules/core.module';
-import { reducers } from './shared/store';
+import { effects, reducers } from './shared/store';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { reducers } from './shared/store';
     BrowserAnimationsModule,
     RouterModule.forRoot(APP_ROUTING, { relativeLinkResolution: 'legacy' }),
     StoreModule.forRoot(reducers),
-    EffectsModule.forRoot(),
+    EffectsModule.forRoot(effects),
     StoreDevtoolsModule.instrument({
       name: 'ngrx-photo',
       logOnly: environment.production
