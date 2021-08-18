@@ -48,7 +48,7 @@
 
 ## SERVER :
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="100"> <img src="https://expressjs.com/images/express-facebook-share.png" height="100"> <img src="https://www.lemagit.fr/visuals/LeMagIT/hero_article/MongoDB.jpg" height="100"> <img src="https://atomrace.com/blog/wp-content/uploads/2016/03/jwt-json-web-token-avec-angular-js.png" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="100"> <img src="https://expressjs.com/images/express-facebook-share.png" height="100"> <img src="https://www.lemagit.fr/visuals/LeMagIT/hero_article/MongoDB.jpg" height="100"> <img src="https://jwt.io/img/pic_logo.svg" height="100">
 
 
 "dependencies": {  
