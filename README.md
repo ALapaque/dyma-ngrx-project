@@ -4,7 +4,7 @@
 
 ## CLIENT :
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" width="100" height="100"> <img src="https://grafikart.fr/uploads/icons/redux.svg" width="100" height="100"> <img src="https://ngrx.io/assets/images/badge.svg" width="100" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" height="100"> <img src="https://grafikart.fr/uploads/icons/redux.svg" height="100"> <img src="https://ngrx.io/assets/images/badge.svg" height="100">
 
 
 
@@ -48,7 +48,7 @@
 
 ## SERVER :
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" width="100" height="100"> <img src="https://expressjs.com/images/express-facebook-share.png" width="100" height="100"> <img src="https://www.lemagit.fr/visuals/LeMagIT/hero_article/MongoDB.jpg" width="100" height="100"> <img src="https://atomrace.com/blog/wp-content/uploads/2016/03/jwt-json-web-token-avec-angular-js.png" width="100" height="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="100"> <img src="https://expressjs.com/images/express-facebook-share.png" height="100"> <img src="https://www.lemagit.fr/visuals/LeMagIT/hero_article/MongoDB.jpg" height="100"> <img src="https://atomrace.com/blog/wp-content/uploads/2016/03/jwt-json-web-token-avec-angular-js.png" height="100">
 
 
 "dependencies": {  
