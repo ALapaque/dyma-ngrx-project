@@ -2,14 +2,11 @@ import { Injectable } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { environment } from '../../../environments/environment';
 import { User } from '../models/user.model';
-import { Observable, BehaviorSubject, timer, of, Subscription } from 'rxjs';
+import { Observable, timer, } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { JwtToken } from '../models/jwt-token.model';
-import { tap, switchMap } from 'rxjs/operators';
-import { Router } from '@angular/router';
+import { tap } from 'rxjs/operators';
 import { State } from '../store';
 import { TryRefreshToken } from '../store/actions/auth.actions';
-import { UserService } from './user.service';
 
 @Injectable()
 export class AuthService {
