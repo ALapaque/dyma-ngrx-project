@@ -1,0 +1,8 @@
+::ng-deep ngx-gallery {
+  height: calc(100vh - 70px) !important;
+  width: 100% !important;
+}
+
+::ng-deep .ngx-gallery-image-size-cover .ngx-gallery-image {
+  background-size: contain !important;
+}

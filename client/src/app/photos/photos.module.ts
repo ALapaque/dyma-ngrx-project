@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreModule } from '@ngrx/store';
+import { NgxGalleryModule } from '@nomadreservations/ngx-gallery';
 import { LayoutModule } from '../shared/modules/layout.module';
 import { PhotosService } from './shared/services/photos.service';
 import { PhotosComponent } from './photos.component';
@@ -15,6 +16,7 @@ const COMPONENTS = [
 
 const MODULES = [
   LayoutModule,
+  NgxGalleryModule,
   RouterModule.forChild(PHOTOS_ROUTES),
   StoreModule.forFeature('photos', photoReducer),
   EffectsModule.forFeature([ PhotosEffects ])

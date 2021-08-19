@@ -1,8 +1,8 @@
-import { Photo } from '../models/photo.model';
+import { NgxGalleryImage } from '@nomadreservations/ngx-gallery';
 import PHOTOS_ACTIONS, { PhotoActions } from './photos.actions';
 
 export interface PhotosState {
-  photos: Array<Photo>;
+  photos: Array<NgxGalleryImage>;
   filter: string;
 }
 

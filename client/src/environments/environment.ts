@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
-  UNSPLASH_ACCESS_KEY: 'h-ieOq5ruGzg_I4aghjM-AiKdAgpOjEyGq89Vn3USy0',
+  apiUrl: 'http://localhost:5050',
+  UNSPLASH_ACCESS_KEY: '6c8cf55fe9f28ec1be5d892ca387a42bb3cef7fd972f707c65c9c3dc36836eac',
   UNSPLASH_SECRET_KEY: 'cZOBawijZjq7GM0h_6rn9BEZg8a5P40wFg_SYc1kFs8'
 };

@@ -5,3 +5,7 @@
   outline: 0;
   cursor: pointer;
 }
+
+.mat-sidenav-container, .mat-sidenav-content, .mat-tab-body-content {
+  transform: none !important;
+}

@@ -1,5 +1,8 @@
 <mat-toolbar color="primary" fxLayoutGap="15px">
   <app-logo></app-logo>
-  <app-search fxFlex="auto"></app-search>
+  <app-search *ngIf="(isLoggedIn$ | async); else spacer" fxFlex="auto"></app-search>
+  <ng-template #spacer>
+    <span fxFlex="auto"></span>
+  </ng-template>
   <app-buttons [isLoggedIn]="isLoggedIn$ | async"></app-buttons>
 </mat-toolbar>

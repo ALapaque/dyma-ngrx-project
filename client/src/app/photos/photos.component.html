@@ -1,3 +1,9 @@
-<ng-container *ngFor="let photo of photos$ | async">
-  <img [src]="photo.url" />
+<ng-container *ngIf="photos$ | async as photos; else loader">
+  <ngx-gallery [options]="galleryOptions" [images]="photos"></ngx-gallery>
 </ng-container>
+
+<ng-template #loader>
+  <span> LOADING ...</span>
+</ng-template>
+
+
