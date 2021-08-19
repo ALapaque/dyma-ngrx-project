@@ -6,7 +6,7 @@
 
 ## CLIENT :
 
-####Type a keyword to search pictures, this uses the API of unsplash
+#### Type a keyword to search pictures, this uses the API of unsplash
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" height="100"> <img src="https://grafikart.fr/uploads/icons/redux.svg" height="100"> <img src="https://ngrx.io/assets/images/badge.svg" height="100">
